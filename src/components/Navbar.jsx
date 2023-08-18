@@ -19,7 +19,7 @@ function Navbar() {
           <a onClick={handleClick} href="#h">Lugares cerca de ti</a>
           <a onClick={handleClick} href="#h">Lo mas popular</a>
           <a onClick={handleClick} href="#h">Seleccionado para ti</a>
-          <a onClick={handleClick} href="#h">Combos</a>
+          <a onClick={handleClick} href="./paginas/Combos">Combos</a>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />
