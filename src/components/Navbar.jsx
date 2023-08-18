@@ -14,7 +14,7 @@ function Navbar() {
       <NavContainer>
         <h2>Navbar <span>CI</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href="#h">Home</a>
+          <a onClick={handleClick} href="#h">Inicio</a>
           <a onClick={handleClick} href="#h">Categorias</a>
           <a onClick={handleClick} href="#h">Lugares cerca de ti</a>
           <a onClick={handleClick} href="#h">Lo mas popular</a>
